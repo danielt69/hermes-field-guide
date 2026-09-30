@@ -1,0 +1,42 @@
+# jarvis-profile.overlay.yaml
+# OVERLAY, not a drop-in config. Merge only the keys you want into
+#   ~/.hermes/profiles/jarvis/config.yaml   (hermes -p jarvis config edit)
+# <PLACEHOLDERS> must be replaced. Keys verified against Hermes docs (upstream f42f579).
+
+terminal:
+  backend: local
+  cwd: /ABSOLUTE/PATH/jarvis-workspace   # placeholder; a profile is not a sandbox
+
+approvals:
+  mode: manual            # smart is the default; never "off" for a personal assistant
+  cron_mode: deny         # default
+  unattended_mode: deny   # default (webhook/API sessions)
+  deny:                   # blocked even under --yolo; quote every pattern
+    - 'git push --force*'
+    - 'git reset --hard*'
+    - '*curl*|*sh*'
+
+memory:
+  write_approval: true    # stage non-interactive memory writes for review
+
+skills:
+  write_approval: true
+
+auxiliary:
+  goal_judge:
+    provider: <CHEAP_PROVIDER>
+    model: <CHEAP_MODEL>
+  background_review:
+    provider: <CHEAP_PROVIDER>
+    model: <CHEAP_MODEL>
+
+stt:
+  provider: local         # on-device after one model download
+
+tts:
+  provider: piper         # local; "edge" is the default and uses Microsoft's online service
+
+wake_word:
+  enabled: false          # turn on deliberately with /wake on
+  provider: sherpa
+  phrase: "hey jarvis"
