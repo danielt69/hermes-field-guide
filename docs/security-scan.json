@@ -1,0 +1,9 @@
+{
+  "scope": "staged added lines; static pattern scan, not a full security audit",
+  "patterns": {
+    "credential_value": [],
+    "dynamic_eval": [],
+    "shell_injection": [],
+    "unsafe_html": []
+  }
+}

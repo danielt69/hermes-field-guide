@@ -1,0 +1,114 @@
+[
+  {
+    "id": "overview",
+    "title": "System overview",
+    "shortTitle": "Overview",
+    "description": "Understand the harness. Then make it yours.",
+    "group": "Foundations",
+    "file": "01-overview.md"
+  },
+  {
+    "id": "first-session",
+    "title": "Your first session",
+    "shortTitle": "First session",
+    "description": "A clean path from one request to one verified result.",
+    "group": "Foundations",
+    "file": "02-first-session.md"
+  },
+  {
+    "id": "tools-skills",
+    "title": "Tools & skills",
+    "shortTitle": "Tools & skills",
+    "description": "Give your agent capabilities\u2014and the procedures to use them well.",
+    "group": "Foundations",
+    "file": "03-tools-skills.md"
+  },
+  {
+    "id": "memory-context",
+    "title": "Memory & context",
+    "shortTitle": "Memory & context",
+    "description": "What persists, what gets retrieved, and what stays local to a task.",
+    "group": "Foundations",
+    "file": "04-memory-context.md"
+  },
+  {
+    "id": "profiles-models",
+    "title": "Profiles & models",
+    "shortTitle": "Profiles & models",
+    "description": "Separate identities, credentials, and execution boundaries.",
+    "group": "Foundations",
+    "file": "05-profiles-models.md"
+  },
+  {
+    "id": "mcp-plugins",
+    "title": "MCP & extensions",
+    "shortTitle": "MCP & extensions",
+    "description": "Connect real systems without surrendering control.",
+    "group": "Foundations",
+    "file": "06-mcp-plugins.md"
+  },
+  {
+    "id": "workflows",
+    "title": "Engineering workflows",
+    "shortTitle": "Workflows",
+    "description": "Inspect. Plan. Execute. Verify. Keep the evidence.",
+    "group": "In practice",
+    "file": "07-workflows.md"
+  },
+  {
+    "id": "automation",
+    "title": "Automation & gateways",
+    "shortTitle": "Automation",
+    "description": "Give useful workflows a schedule, a trigger, and a way home.",
+    "group": "In practice",
+    "file": "08-automation.md"
+  },
+  {
+    "id": "local-workbench",
+    "title": "Your local workbench",
+    "shortTitle": "Local workbench",
+    "description": "Practical execution, voice, and inference on your Mac.",
+    "group": "In practice",
+    "file": "09-local-workbench.md"
+  },
+  {
+    "id": "learning-path",
+    "title": "The seven-day path",
+    "shortTitle": "Learning path",
+    "description": "One capability at a time. A real result every day.",
+    "group": "In practice",
+    "file": "10-learning-path.md"
+  },
+  {
+    "id": "command-reference",
+    "title": "Command reference",
+    "shortTitle": "Command reference",
+    "description": "Find the command. Understand its scope. Check the result.",
+    "group": "In practice",
+    "file": "11-command-reference.md"
+  },
+  {
+    "id": "sources",
+    "title": "Sources & provenance",
+    "shortTitle": "Sources",
+    "description": "An opinionated field guide, grounded in the official documentation.",
+    "group": "In practice",
+    "file": "12-sources.md"
+  },
+  {
+    "id": "jarvis",
+    "title": "Build your J.A.R.V.I.S.",
+    "shortTitle": "Your J.A.R.V.I.S.",
+    "description": "A persistent personal agent\u2014with memory, voice, tools, and boundaries.",
+    "group": "Build the system",
+    "file": "13-jarvis.md"
+  },
+  {
+    "id": "startup-team",
+    "title": "Assemble your startup team",
+    "shortTitle": "Your startup team",
+    "description": "Specialized agents. Shared knowledge. One accountable orchestrator.",
+    "group": "Build the system",
+    "file": "14-startup-team.md"
+  }
+]

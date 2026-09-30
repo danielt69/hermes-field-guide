@@ -1,0 +1,22 @@
+# specialist-profile.overlay.yaml
+# OVERLAY, not a drop-in config. Merge into ~/.hermes/profiles/<ROLE>/config.yaml
+# (hermes -p <ROLE> config edit). Policy guardrails, not OS isolation; for isolation use a
+# container terminal backend (see the Security docs).
+
+approvals:
+  mode: manual
+  single_query_mode: deny   # default; kanban workers run as one-shot `chat -q`
+  deny:
+    - 'git push*'
+    - 'git reset --hard*'
+    - 'rm -rf *'
+    - '*curl*|*sh*'
+
+memory:
+  write_approval: true
+
+skills:
+  write_approval: true
+
+model:
+  default: <INEXPENSIVE_WORKER_MODEL>

@@ -1,0 +1,107 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+@import "@heroui-pro/react/css";
+
+@theme inline {
+  --font-sans: 'Manrope Variable', 'Segoe UI', sans-serif;
+  --font-mono: 'Share Tech Mono', 'SFMono-Regular', Consolas, monospace;
+}
+
+/* One semantic theme owns OSS controls, Pro portals, and reading surfaces. */
+:root {
+  --font-sans: 'Manrope Variable', 'Segoe UI', sans-serif;
+  --font-mono: 'Share Tech Mono', 'SFMono-Regular', Consolas, monospace;
+  --display-font: 'Rajdhani', 'Bahnschrift', sans-serif;
+  --radius: .5rem;
+  --field-radius: .5rem;
+  --radius-sm: .375rem;
+  --radius-md: .5rem;
+  --radius-lg: .75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1rem;
+  --cursor-interactive: pointer;
+  --shadow-surface: none;
+  --shadow-overlay: 0 16px 60px rgb(0 0 0 / .35);
+  --sidebar-width: 260px;
+  --header-height: 76px;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #030a12;
+  --foreground: #e0ebf2;
+  --muted: #93a9b9;
+  --surface: #0a1520;
+  --surface-foreground: #e0ebf2;
+  --surface-secondary: #101f2c;
+  --surface-secondary-foreground: #e0ebf2;
+  --surface-tertiary: #192c3b;
+  --surface-tertiary-foreground: #e0ebf2;
+  --overlay: #0b1824;
+  --overlay-foreground: #e0ebf2;
+  --default: #172633;
+  --default-foreground: #dbe7ee;
+  --accent: #4fd8ff;
+  --accent-foreground: #03202b;
+  --accent-soft: #102f3c;
+  --accent-soft-foreground: #78e2ff;
+  --border: #263a4a;
+  --separator: #1d2d3b;
+  --focus: #75e1ff;
+  --field-background: #101f2c;
+  --field-foreground: #e0ebf2;
+  --field-border: #344c5e;
+  --field-placeholder: #93a9b9;
+  --success: #77deb0;
+  --success-foreground: #052c1b;
+  --warning: #ffc078;
+  --warning-foreground: #2c1900;
+  --danger: #ff9499;
+  --danger-foreground: #360407;
+  --danger-soft: #3b1d26;
+  --danger-soft-foreground: #ffb4b8;
+  --sidebar-bg: #060e18;
+  --code-bg: #07111c;
+  --hero-dim: #90a9b9;
+  --grid-color: rgb(79 216 255 / .035);
+  --accent-faint: rgb(79 216 255 / .075);
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --background: #f5f8fa;
+  --foreground: #142b3b;
+  --muted: #526a7b;
+  --surface: #fff;
+  --surface-foreground: #142b3b;
+  --surface-secondary: #e9eff3;
+  --surface-secondary-foreground: #142b3b;
+  --surface-tertiary: #dce6ed;
+  --surface-tertiary-foreground: #142b3b;
+  --overlay: #fff;
+  --overlay-foreground: #142b3b;
+  --default: #e3ebf0;
+  --default-foreground: #142b3b;
+  --accent: #006a86;
+  --accent-foreground: #fff;
+  --accent-soft: #d9edf3;
+  --accent-soft-foreground: #00556d;
+  --border: #bed0dc;
+  --separator: #d8e2e9;
+  --focus: #00718c;
+  --field-background: #e9eff3;
+  --field-foreground: #142b3b;
+  --field-border: #8ca6b7;
+  --field-placeholder: #526a7b;
+  --success: #12724e;
+  --success-foreground: #fff;
+  --warning: #8a4800;
+  --warning-foreground: #fff;
+  --danger: #a22839;
+  --danger-foreground: #fff;
+  --danger-soft: #ffe7eb;
+  --danger-soft-foreground: #89182b;
+  --sidebar-bg: #edf3f6;
+  --code-bg: #eaf1f5;
+  --hero-dim: #526a7b;
+  --grid-color: rgb(0 75 110 / .045);
+  --accent-faint: rgb(0 105 135 / .065);
+}

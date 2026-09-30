@@ -1,0 +1,11 @@
+# kanban-host.overlay.yaml
+# OVERLAY for the profile whose gateway hosts the dispatcher (normally the default profile,
+# ~/.hermes/config.yaml). Merge keys; do not replace the file.
+
+kanban:
+  dispatch_in_gateway: true     # default; exactly one gateway should dispatch
+  auto_decompose: false         # no automatic fan-out of triage cards
+  max_in_progress: 2            # host-wide concurrent workers
+  max_in_progress_per_profile: 1
+  failure_limit: 2              # auto-block after N consecutive failed attempts (default 2)
+  review_dispatch: true         # default
