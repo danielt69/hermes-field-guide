@@ -6,7 +6,7 @@ export function Reactor() {
       <g fill="none" stroke="currentColor">
         <circle className="reactor-orbit" cx="180" cy="180" r="140" strokeOpacity=".24" strokeWidth="1" strokeDasharray="2 6"/>
         <circle cx="180" cy="180" r="128" strokeOpacity=".18"/>
-        <circle cx="180" cy="180" r="119" strokeOpacity=".85" strokeWidth="2" strokeDasharray="144 30 55 15 90 100" transform="rotate(-60 180 180)"/>
+        <circle className="reactor-inner" cx="180" cy="180" r="119" strokeOpacity=".85" strokeWidth="2" strokeDasharray="144 30 55 15 90 100" transform="rotate(-60 180 180)"/>
         <circle cx="180" cy="180" r="108" strokeOpacity=".22" strokeWidth="8" strokeDasharray="1 10"/>
         <path d="m180 99 70 40v82l-70 40-70-40v-82Z" strokeOpacity=".45"/>
         <path d="m180 106 64 37v74l-64 37-64-37v-74Z" strokeOpacity=".1"/>
